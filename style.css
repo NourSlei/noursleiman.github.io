@@ -1,30 +1,43 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background-color: #0f0f0f;
-  color: white;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffd6e0; /* light pink */
 }
 
-header {
-  text-align: center;
-  padding: 100px 20px;
-  background-color: #1a1a1a;
+/* Center everything */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
+/* Your name */
 h1 {
-  font-size: 48px;
-  margin: 0;
+    font-size: 80px;
+    margin: 0;
+    font-weight: 600;
 }
 
-section {
-  padding: 50px 20px;
-  max-width: 800px;
-  margin: auto;
+/* Subtitle */
+p {
+    font-size: 20px;
+    margin: 10px 0 30px;
 }
 
-.project {
-  background-color: #222;
-  padding: 20px;
-  margin-top: 20px;
-  border-radius: 10px;
+/* Button */
+.btn {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: 0.3s;
 }
+
+    .btn:hover {
+        background-color: #333;
+    }
