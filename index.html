@@ -9,33 +9,42 @@
 
 <body>
 
-  <nav class="navbar">
-    <div class="logo">Nour Sleiman</div>
-    <div class="nav-links">
-      <a href="index.html">About</a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact / CV</a>
-    </div>
-  </nav>
+  .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 50px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; /* IMPORTANT */
+
+  background-color: #ffd6e0;
+  z-index: 100;
+
+  box-sizing: border-box; /* THIS FIXES THE CUT */
+}
 
   <div class="container">
     <h1>Nour Sleiman</h1>
     <h3>3D Artist</h3>
 
-    <p>
-      My journey started in fine arts, where I spent two years building a strong foundation in traditional techniques before transitioning into 3D. I’m currently pursuing a Master’s degree in Management of Interactive 3D Technologies, where I explore the intersection of art, technology, and immersive experiences.
 
-      I like shaping environments and assets that tell a story through detail and mood. I’m also exploring real-time 3D and virtual reality as ways to build more immersive and interactive worlds.
+<p>My journey started in fine arts, where I spent two years building a strong foundation in traditional techniques before transitioning into 3D. I’m currently pursuing a Master’s degree in Management of Interactive 3D Technologies, where I explore the intersection of art, technology, and immersive experiences.</p>
 
-      Outside of 3D, I keep it simple: sunsets, iced coffee, and llamas.
+<p>I like shaping environments and assets that tell a story through detail and mood. I’m also exploring real-time 3D and virtual reality as ways to build more immersive and interactive worlds.
+</p>
 
-      Take a look around, this is just the start.
-    </p>
+<p>Outside of 3D, I keep it simple: sunsets, iced coffee, and llamas.</p>
+
+<p>Take a look around, this is just the start.</p>
 
     <div class="image-gallery">
-      <img src="img1.jpeg">
-      <img src="img2.jpeg">
-      <img src="llama.jpeg">
+      <img src="img1.jpg">
+      <img src="img2.jpg">
+      <img src="llama.jpg">
     </div>
 
   </div>

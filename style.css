@@ -13,6 +13,7 @@ body {
     top: 0;
     background-color: #ffd6e0; /* pink */
     z-index: 100;
+    box-sizing: border-box;
 }
 
 .nav-links {
@@ -47,22 +48,27 @@ h1 {
 /* PARAGRAPH */
 p {
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 20px auto;
 }
+
+
 
 .image-gallery {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    margin-top: 40px;
+    gap: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap; /* prevents breaking on small screens */
 }
 
     .image-gallery img {
-        width: 250px;
-        height: 300px;
+        width: 220px;
+        height: 280px;
         object-fit: cover;
-        /* squiggly organic shape */
-        border-radius: 58% 42% 65% 35% / 40% 60% 40% 60%;
+        border-radius: 60% 40% 55% 45% / 45% 55% 45% 55%;
+    
         transition: 0.3s;
     }
 

@@ -1,12 +1,20 @@
-<nav class="navbar">
-  <div class="logo">Nour Sleiman</div>
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-  <div class="nav-links">
-    <a href="index.html">About</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact / CV</a>
-  </div>
-</nav>
+  padding: 20px 50px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; /* IMPORTANT */
+
+  background-color: #ffd6e0;
+  z-index: 100;
+
+  box-sizing: border-box; /* THIS FIXES THE CUT */
+}
 
 <h1>About Me</h1>
 
