@@ -29,7 +29,7 @@ body {
     }
 
         .nav-links a:hover {
-            color: #ff3399; /* hover effect */
+            color: #420b5f55; /* hover effect */
         }
 
 /* MAIN CONTENT */
@@ -60,7 +60,7 @@ a {
 }
 
     a:hover {
-        color: #ff3399;
+        color: #420b5f55;
     }
 
 
