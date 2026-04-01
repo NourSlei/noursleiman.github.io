@@ -11,7 +11,7 @@ body {
     position: fixed; /* keeps navbar on top when scrolling */
     width: 100%;
     top: 0;
-    background-color: #ffd6e0; /* pink */
+    background-color: #A7C7E7; /* pink */
     z-index: 100;
     box-sizing: border-box;
 }
