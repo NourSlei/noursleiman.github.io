@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: #CCCCFF; /* periwinkle */
+    background-color: #D3D3D3; /* light grey */
 }
 
 .navbar {
@@ -11,7 +11,7 @@ body {
     position: fixed; /* keeps navbar on top when scrolling */
     width: 100%;
     top: 0;
-    background-color: #CCCCFF; /* periwinkle */
+    background-color: #D3D3D3; /* light grey */
     z-index: 100;
     box-sizing: border-box;
 }
