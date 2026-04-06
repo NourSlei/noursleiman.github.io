@@ -65,13 +65,13 @@ a {
 
 
 
-.image-gallery {
+/*.image-gallery {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-top: 50px;
-    flex-wrap: wrap; /* prevents breaking on small screens */
-}
+    flex-wrap: wrap;*/ /* prevents breaking on small screens */
+/*}
 
     .image-gallery img {
         width: 220px;
@@ -84,7 +84,7 @@ a {
 
         .image-gallery img:hover {
             transform: scale(1.05);
-        }
+        }*/
 
 .projects-grid {
     display: grid;
