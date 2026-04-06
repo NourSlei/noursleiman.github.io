@@ -29,7 +29,7 @@ body {
     }
 
         .nav-links a:hover {
-            color: #301934; /* hover effect */
+            color: #FFC0CB; /* hover effect */
         }
 
 /* MAIN CONTENT */
@@ -71,7 +71,7 @@ a {
     align-items: center;
     gap: 20px;
     margin-top: 50px;
-    flex-wrap: nowrap; /* THIS keeps them on one line */
+    flex-wrap: nowrap; /* This keeps them on one line */
 }
 
     .image-gallery img {
