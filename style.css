@@ -109,3 +109,25 @@ a {
     .project-card:hover {
         transform: translateY(-5px);
     }
+
+/* SOFTWARE ICONS */
+.software-icons {
+    margin: 20px 0; /* space from text/images */
+    display: flex; /* horizontal layout */
+    gap: 12px; /* space between each icon */
+    justify-content: center; /* center the row */
+    align-items: center; /* vertical alignment in case icons differ in height */
+}
+
+    .software-icons img {
+        width: 24px; /* small size */
+        height: 24px;
+        object-fit: contain; /* keeps icon proportions correct */
+        opacity: 0.8;
+        transition: 0.3s;
+    }
+
+        .software-icons img:hover {
+            transform: scale(1.2); /* grow slightly on hover */
+            opacity: 1; /* highlight on hover */
+        }
