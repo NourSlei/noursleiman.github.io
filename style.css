@@ -120,8 +120,8 @@ a {
 }
 
     .software-icons img {
-        width: 24px; /* small size */
-        height: 24px;
+        width: 48px; /* small size */
+        height: 48px;
         object-fit: contain; /* keeps icon proportions correct */
         opacity: 0.8;
         transition: 0.3s;
