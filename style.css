@@ -2,13 +2,20 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #D3D3D3; /* light grey */
-    cursor: url("cursor.png"), auto;
+/*    cursor: url("cursor.png"), auto;*/
 }
 
 /*.cursor {
     cursor: url("cursor.png");
 }*/
 
+body {
+    cursor: url("cursor.png") 16 16, auto;
+}
+
+a, button {
+    cursor: url("cursor.png") 16 16, pointer;
+}
 
 .navbar {
     display: flex;
