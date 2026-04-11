@@ -131,3 +131,7 @@ a {
             transform: scale(1.2); /* grow slightly on hover */
             opacity: 1; /* highlight on hover */
         }
+
+body {
+    cursor: url("cursor.png"), auto;
+}
