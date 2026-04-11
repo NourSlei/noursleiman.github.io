@@ -5,9 +5,9 @@ body {
 /*    cursor: url("cursor.png"), auto;*/
 }
 
-.cursor {
+/*.cursor {
     cursor: url("cursor.png");
-}
+}*/
 
 
 .navbar {
@@ -138,6 +138,6 @@ a {
             opacity: 1; /* highlight on hover */
         }
 
-/*body {
-    cursor: url("cursor.png"), auto;
-}*/
+body {
+    cursor: url("cursor.png") 16 16, auto;
+}
