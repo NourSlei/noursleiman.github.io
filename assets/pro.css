@@ -4,7 +4,7 @@
    ============================================================ */
 
 :root {
-  --bg: #fbfaf9;
+  --bg: #faf6f4;
   --surface: #ffffff;
   --ink: #1d1a1c;
   --muted: #6b6467;
@@ -40,11 +40,9 @@ body {
   line-height: 1.7;
   color: var(--ink);
   background-color: var(--bg);
-  /* one soft pink glow, same on every page */
-  background-image:
-    radial-gradient(900px 460px at 88% -120px, var(--tint-2), transparent 70%),
-    radial-gradient(700px 400px at -10% 0, var(--tint), transparent 70%);
-  background-repeat: no-repeat;
+  /* same cream + pink dots as the About page */
+  background-image: radial-gradient(#f4cfdd 1.6px, transparent 1.7px);
+  background-size: 26px 26px;
   cursor: var(--cursor);
   -webkit-font-smoothing: antialiased;
 }
