@@ -11,6 +11,8 @@
   --line: #e8e3e1;
   --line-strong: #cfc8c6;
 
+  --pink: #ff8fbf;
+  --hot: #e0398a;
   --accent: #d6407a;       /* pink, fills & accents */
   --accent-ink: #b32a66;   /* pink for text (AA contrast) */
   --tint: #fbeef3;         /* very light pink */
@@ -61,6 +63,18 @@ img, video { max-width: 100%; display: block; }
 
 .wrap { width: min(var(--wrap), 100% - 48px); margin-inline: auto; }
 main { flex: 1; }
+
+/* ---------- floating shapes (same as the About page) ---------- */
+.deco { position: fixed; inset: 0; pointer-events: none; z-index: 0; overflow: hidden; }
+.deco span {
+  position: absolute; font-size: var(--s, 26px); color: var(--c, var(--pink)); opacity: .75;
+  animation: float var(--t, 7s) ease-in-out infinite; animation-delay: var(--d, 0s);
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(-8deg); }
+  50%      { transform: translateY(-18px) rotate(10deg); }
+}
+main, .footer { position: relative; z-index: 1; }
 
 /* ---------- header (same pill menu as the About page) ---------- */
 .nav {
