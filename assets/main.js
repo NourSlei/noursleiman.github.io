@@ -17,7 +17,7 @@
 
   /* little heart / sparkle burst */
   var bits = ['♥', '✦', '★', '♡', '✿'];
-  var colors = ['#e8398f', '#ff8fbf', '#ffc93c', '#9b7bff', '#3bc8a0'];
+  var colors = ['#e0398a', '#ff8fbf', '#ffb3d1', '#2c2428', '#c9b8bf'];
   function burst(x, y) {
     if (reduce) return;
     for (var i = 0; i < 9; i++) {
@@ -42,19 +42,4 @@
       burst(e.clientX || r.left + r.width / 2, e.clientY || r.top + r.height / 2);
     });
   });
-
-  /* copy email */
-  var copyBtn = document.getElementById('copy-email');
-  if (copyBtn) {
-    var out = document.getElementById('copied');
-    copyBtn.addEventListener('click', function () {
-      var mail = copyBtn.getAttribute('data-email');
-      function done(ok) {
-        if (out) out.textContent = ok ? 'copied! now go write something nice ♥' : 'select it & copy it manually ♡';
-      }
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(mail).then(function () { done(true); }, function () { done(false); });
-      } else { done(false); }
-    });
-  }
 })();
