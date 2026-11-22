@@ -1,45 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Contact - Nour Sleiman</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact · Nour Sleiman</title>
+  <meta name="description" content="Get in touch with Nour Sleiman, 3D artist: email, LinkedIn and CV download.">
+  <meta name="theme-color" content="#ff8fbf">
+  <link rel="canonical" href="https://www.noursleiman.com/contact.html">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
 
-  <link rel="icon" type="image/png" href="logo.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact · Nour Sleiman">
+  <meta property="og:description" content="Get in touch with Nour Sleiman, 3D artist: email, LinkedIn and CV download.">
+  <meta property="og:url" content="https://www.noursleiman.com/contact.html">
+  <meta property="og:image" content="https://www.noursleiman.com/assets/img/not-paid-enough.webp">
+  <meta name="twitter:card" content="summary_large_image">
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
 </head>
-
 <body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="deco" aria-hidden="true"><span style="left:6%;top:18%;--s:28px;--c:var(--pink);--t:7s;--d:0s">✦</span><span style="left:92%;top:14%;--s:24px;--c:var(--hot);--t:8s;--d:1s">♥</span><span style="left:88%;top:58%;--s:30px;--c:#ffc93c;--t:9s;--d:2s">★</span><span style="left:4%;top:64%;--s:30px;--c:#9b7bff;--t:8s;--d:3s">✿</span><span style="left:50%;top:92%;--s:26px;--c:var(--hot);--t:7s;--d:1.5s">♡</span><span style="left:78%;top:86%;--s:22px;--c:#3bc8a0;--t:6s;--d:0.5s">✦</span><span style="left:14%;top:88%;--s:22px;--c:var(--pink);--t:10s;--d:2.5s">★</span></div>
+  <header>
+    <nav class="nav" aria-label="Main">
+      <a class="brand" href="index.html" data-burst><img src="assets/logo.png" alt=""><span>Nour Sleiman</span></a>
+      <ul><li><a href="index.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="contact.html" aria-current=page>Contact</a></li></ul>
+    </nav>
+  </header>
 
-  <nav class="navbar">
-  <div class="logo">Nour Sleiman</div>
+  <main id="main">
 
-  <div class="nav-links">
-    <a href="index.html">About</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact / CV</a>
-  </div>
-</nav>
+    <section class="wrap page-head">
+      <span class="hand">don’t be shy ♡</span>
+      <h1>Contact</h1>
+      <p class="lead">Got a project, a question, or just a llama picture? I’d love to hear from you.</p>
+    </section>
 
-  <div class="container">
-    <h1>Contact / CV</h1>
+    <section class="wrap contact-grid">
+      <div class="sticker mail-card reveal">
+        <span class="hand">drop me a line</span>
+        <h2>Say hi!</h2>
+        <a class="mail-link" href="mailto:noursleiman.contact@gmail.com">noursleiman.contact@gmail.com</a>
+        <div class="btn-row">
+          <a class="btn alt" href="mailto:noursleiman.contact@gmail.com">Write an email ✉</a>
+          <button class="btn alt" type="button" id="copy-email" data-email="noursleiman.contact@gmail.com">Copy address</button>
+        </div>
+        <div class="copied" id="copied" role="status" aria-live="polite"></div>
+      </div>
 
-    <p>Email: noursleiman.contact@gmail.com</p>
+      <div class="link-stack">
+        <a class="sticker link-card reveal" href="https://www.linkedin.com/in/nour-sleiman-" target="_blank" rel="noopener">
+          <span class="ico" aria-hidden="true">💼</span>
+          <div><strong>LinkedIn</strong><span>let’s connect</span></div>
+        </a>
+        <a class="sticker link-card reveal" href="CV_Nour_SLEIMAN.pdf" download>
+          <span class="ico" aria-hidden="true">📄</span>
+          <div><strong>Download my CV</strong><span>PDF, the serious version</span></div>
+        </a>
+      </div>
+    </section>
 
-<p>
-  <a href="https://www.linkedin.com/in/nour-sleiman-
+  </main>
 
-" target="_blank">
-    My LinkedIn
-  </a>
-</p>
-
-    <!-- Make CV downloadable -->
-    <p>
-      <a href="CV_Nour_SLEIMAN.pdf" download>Download my CV</a>
-    </p>
-  </div>
-
+  <footer class="footer">
+    <div>made with <span class="heart" aria-label="love">♥</span>, iced coffee &amp; zero n-gons</div>
+    <small>© 2026 Nour Sleiman · 3D artist</small>
+  </footer>
+  <script src="assets/main.js"></script>
 </body>
 </html>

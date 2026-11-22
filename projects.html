@@ -1,62 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Projects - Nour Sleiman</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects · Nour Sleiman</title>
+  <meta name="description" content="3D projects by Nour Sleiman: a collaborative game, a sci-fi environment, a 2D C++ game and a ZBrush sculpt.">
+  <meta name="theme-color" content="#ff8fbf">
+  <link rel="canonical" href="https://www.noursleiman.com/projects.html">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
 
-  <link rel="icon" type="image/png" href="logo.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Projects · Nour Sleiman">
+  <meta property="og:description" content="3D projects by Nour Sleiman: a collaborative game, a sci-fi environment, a 2D C++ game and a ZBrush sculpt.">
+  <meta property="og:url" content="https://www.noursleiman.com/projects.html">
+  <meta property="og:image" content="https://www.noursleiman.com/assets/img/not-paid-enough.webp">
+  <meta name="twitter:card" content="summary_large_image">
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
 </head>
-
 <body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="deco" aria-hidden="true"><span style="left:6%;top:18%;--s:28px;--c:var(--pink);--t:7s;--d:0s">✦</span><span style="left:92%;top:14%;--s:24px;--c:var(--hot);--t:8s;--d:1s">♥</span><span style="left:88%;top:58%;--s:30px;--c:#ffc93c;--t:9s;--d:2s">★</span><span style="left:4%;top:64%;--s:30px;--c:#9b7bff;--t:8s;--d:3s">✿</span><span style="left:50%;top:92%;--s:26px;--c:var(--hot);--t:7s;--d:1.5s">♡</span><span style="left:78%;top:86%;--s:22px;--c:#3bc8a0;--t:6s;--d:0.5s">✦</span><span style="left:14%;top:88%;--s:22px;--c:var(--pink);--t:10s;--d:2.5s">★</span></div>
+  <header>
+    <nav class="nav" aria-label="Main">
+      <a class="brand" href="index.html" data-burst><img src="assets/logo.png" alt=""><span>Nour Sleiman</span></a>
+      <ul><li><a href="index.html">About</a></li><li><a href="projects.html" aria-current=page>Projects</a></li><li><a href="contact.html">Contact</a></li></ul>
+    </nav>
+  </header>
 
-<nav class="navbar">
-  <div class="logo">Nour Sleiman</div>
-  <div class="nav-links">
-    <a href="index.html">About</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact / CV</a>
-  </div>
-</nav>
+  <main id="main">
 
-<div class="container">
-  <h1>Projects</h1>
+    <section class="wrap page-head">
+      <span class="hand">things I’ve made ✦</span>
+      <h1>Projects</h1>
+      <p class="lead">Click a card to see the details. They don’t bite. (The aliens might.)</p>
+    </section>
+    <section class="wrap">
+      <div class="projects-grid">
+        <a class="card sticker reveal" href="not-paid-enough.html">
+          <div class="thumb"><img src="assets/img/not-paid-enough-thumb.webp" alt="Illustration of a grumpy alien janitor in a 1970s wallpaper room swinging a mop, with a bucket of water flying" loading="lazy"></div>
+          <div class="body">
+            <div class="chips"><span class="chip pink">Team of 15</span><span class="chip mint">3D modeling</span><span class="chip lilac">Game</span></div>
+            <h3>Not Paid Enough</h3>
+            <p>Aliens. Unpaid labor. One very angry mop.</p>
+            <div class="go">take a look <span>→</span></div>
+          </div>
+        </a>
+        <a class="card sticker reveal" href="mutant-zone.html">
+          <div class="thumb"><img src="assets/img/mutant-zone-thumb.webp" alt="Dark sci-fi laboratory with fog and three containment tubes holding silhouetted creatures" loading="lazy"></div>
+          <div class="body">
+            <div class="chips"><span class="chip pink">Solo</span><span class="chip mint">Environment</span><span class="chip lilac">Lighting</span></div>
+            <h3>Mutant Zone</h3>
+            <p>A very moody lab. Lots of fog. Mind the tubes.</p>
+            <div class="go">take a look <span>→</span></div>
+          </div>
+        </a>
+        <a class="card sticker reveal" href="cargo-clash.html">
+          <div class="thumb"><img src="assets/img/cargo-clash-thumb.webp" alt="Top-down view of a 2D game level with orange cargo crates, hazard stripes, yellow coins and pixel characters" loading="lazy"></div>
+          <div class="body">
+            <div class="chips"><span class="chip pink">Solo</span><span class="chip mint">C++ / SFML</span><span class="chip lilac">Game</span></div>
+            <h3>Cargo Clash</h3>
+            <p>Coins, enemies, crates. Zero chill.</p>
+            <div class="go">take a look <span>→</span></div>
+          </div>
+        </a>
+        <a class="card sticker reveal" href="cute-monsters.html">
+          <div class="thumb"><img src="assets/img/cute-monsters-thumb.webp" alt="Six cute sculpted monsters in a row: a yellow four-eyed one holding an ice cream, a teal cyclops, a red one with big eyes, a purple moon creature, a pink round one and a green witch-hat one" loading="lazy"></div>
+          <div class="body">
+            <div class="chips"><span class="chip pink">Sculpt</span><span class="chip mint">ZBrush</span><span class="chip lilac">Characters</span></div>
+            <h3>Cute Monsters</h3>
+            <p>Six little guys from the planet Monstroville.</p>
+            <div class="go">take a look <span>→</span></div>
+          </div>
+        </a>
+      </div>
+    </section>
 
-  <div class="projects-grid">
+  </main>
 
-    <!-- PROJECT 1 -->
-    <a href="project1.html" class="project-card">
-      <img src="images/project1.jpg">
-      <h3>Not Paid Enough</h3>
-      <p>Collaborative game project</p>
-    </a>
-
-    <!-- PROJECT 2 -->
-    <a href="project2.html" class="project-card">
-      <img src="images/project2.jpg">
-      <h3>Mutant Zone</h3>
-      <p>Sci-fi environment</p>
-    </a>
-
-    <!-- PROJECT 3 -->
-    <a href="project3.html" class="project-card">
-      <img src="images/project3.jpg">
-      <h3>Cargo Clash</h3>
-      <p>2D Game</p>
-    </a>
-
-    <!-- PROJECT 4 -->
-    <a href="project4.html" class="project-card">
-      <img src="images/project4.jpg">
-      <h3>Cute Monsters</h3>
-      <p>3D Sculpt</p>
-    </a>
-
-  </div>
-
-</div>
-
+  <footer class="footer">
+    <div>made with <span class="heart" aria-label="love">♥</span>, iced coffee &amp; zero n-gons</div>
+    <small>© 2026 Nour Sleiman · 3D artist</small>
+  </footer>
+  <script src="assets/main.js"></script>
 </body>
 </html>
