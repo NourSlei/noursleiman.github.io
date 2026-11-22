@@ -183,7 +183,7 @@ p { margin: 0 0 1.1em; }
   transform: rotate(-1.2deg);
   overflow: hidden; white-space: nowrap;
 }
-.marquee-track { display: inline-flex; animation: slide 32s linear infinite; }
+.marquee-track { display: inline-flex; animation: slide 50s linear infinite; }
 .marquee span {
   font-family: var(--font-head); font-weight: 500; font-size: 1.25rem;
   padding: 10px 22px;
