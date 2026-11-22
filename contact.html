@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact · Nour Sleiman</title>
   <meta name="description" content="Get in touch with Nour Sleiman, 3D artist: email, LinkedIn and CV download.">
-  <meta name="theme-color" content="#ff8fbf">
+  <meta name="theme-color" content="#fbfaf9">
   <link rel="canonical" href="https://www.noursleiman.com/contact.html">
   <link rel="icon" type="image/png" href="assets/favicon.png">
 
@@ -18,15 +18,14 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/pro.css">
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <div class="deco" aria-hidden="true"><span style="left:6%;top:18%;--s:28px;--c:var(--pink);--t:7s;--d:0s">✦</span><span style="left:92%;top:14%;--s:24px;--c:var(--hot);--t:8s;--d:1s">♥</span><span style="left:88%;top:58%;--s:30px;--c:#ffb3d1;--t:9s;--d:2s">★</span><span style="left:4%;top:64%;--s:30px;--c:#c9b8bf;--t:8s;--d:3s">✿</span><span style="left:50%;top:92%;--s:26px;--c:var(--hot);--t:7s;--d:1.5s">♡</span><span style="left:78%;top:86%;--s:22px;--c:var(--pink);--t:6s;--d:0.5s">✦</span><span style="left:14%;top:88%;--s:22px;--c:var(--pink);--t:10s;--d:2.5s">★</span></div>
-  <header>
-    <nav class="nav" aria-label="Main">
-      <a class="brand" href="index.html" data-burst><img src="assets/logo.png" alt=""><span>Nour Sleiman</span></a>
+  <header class="site-header">
+    <nav class="wrap nav" aria-label="Main">
+      <a class="brand" href="index.html"><img src="assets/logo.png" alt=""><span>Nour Sleiman</span></a>
       <ul><li><a href="index.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="contact.html" aria-current=page>Contact</a></li></ul>
     </nav>
   </header>
@@ -34,27 +33,21 @@
   <main id="main">
 
     <section class="wrap page-head">
-      <span class="hand">don’t be shy ♡</span>
-      <h1>Contact</h1>
-      <p class="lead">Got a project, a question, or just a llama picture? I’d love to hear from you.</p>
+      <div class="kicker">Contact</div>
+      <h1>Get in <em>touch</em></h1>
+      <p class="lead">For projects, collaborations or opportunities, feel free to reach out.</p>
     </section>
 
-    <section class="wrap contact-grid">
-      <div class="sticker mail-card reveal">
-        <span class="hand">drop me a line</span>
-        <h2>Say hi!</h2>
-        <p class="mail-link" id="email">noursleiman.contact@gmail.com</p>
-        <p class="hand tip">(click the address to select it, then copy)</p>
-      </div>
+    <section class="wrap contact-body">
+      <p class="email" id="email">noursleiman.contact@gmail.com</p>
+      <p class="hint">Click the address to select it, then copy.</p>
 
-      <div class="link-stack">
-        <a class="sticker link-card reveal" href="https://www.linkedin.com/in/nour-sleiman-" target="_blank" rel="noopener">
-          <span class="ico" aria-hidden="true">💼</span>
-          <div><strong>LinkedIn</strong><span>let’s connect</span></div>
+      <div class="link-list">
+        <a href="https://www.linkedin.com/in/nour-sleiman-" target="_blank" rel="noopener">
+          <div><strong>LinkedIn</strong><span>Let’s connect</span></div><i aria-hidden="true">↗</i>
         </a>
-        <a class="sticker link-card reveal" href="CV_Nour_SLEIMAN.pdf" download>
-          <span class="ico" aria-hidden="true">📄</span>
-          <div><strong>Download my CV</strong><span>PDF, the serious version</span></div>
+        <a href="CV_Nour_SLEIMAN.pdf" download>
+          <div><strong>Curriculum vitae</strong><span>Download as PDF</span></div><i aria-hidden="true">↓</i>
         </a>
       </div>
     </section>
@@ -62,9 +55,11 @@
   </main>
 
   <footer class="footer">
-    <div>made with <span class="heart" aria-label="love">♥</span>, iced coffee &amp; zero n-gons</div>
-    <small>© 2026 Nour Sleiman · 3D artist</small>
+    <div class="wrap">
+      <span>© 2026 Nour Sleiman</span>
+      <span>3D Artist</span>
+    </div>
   </footer>
-  <script src="assets/main.js"></script>
+  <script src="assets/pro.js"></script>
 </body>
 </html>
